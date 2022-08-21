@@ -1,0 +1,18 @@
+.logo {
+    @include font(26px, 700, 30.52px, 0.03em);
+    font-family: $logo-font;
+    color: $accent-color;
+
+}
+
+.logo--header__logo {
+    margin-right: 93px;
+}
+
+.logo__dark {
+    color: $logo-color-dark;
+}
+
+.logo__light {
+    color: $logo-color-light;
+}
